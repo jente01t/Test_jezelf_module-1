@@ -7,7 +7,7 @@ let som = 0;
 let nummer;
 
 nummer = parseFloat(await userInput.question('Getal 1?'));
-som = som + nummer 
+som = som + nummer //kan ook geschreven worden als som += nummer
 nummer = parseFloat(await userInput.question('Getal 2?'));
 som = som + nummer 
 nummer = parseFloat(await userInput.question('Getal 3?'));
